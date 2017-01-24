@@ -1,0 +1,27 @@
+/*global to tell page size*/
+#container {
+	background-color: green;
+	width: 960px;
+	margin:0 auto;
+	padding: 20px;
+}
+#left_column, #right_column {
+	float: left;
+	width: 50%;
+	background-color: red;
+	/*padding:20px*/;
+} 
+#left_column img{
+	width: 100%;
+}
+/* can be used to resize screen to other device*/
+@media screen and (max-width: 960px) {
+	#container {
+		width: 400px;
+		/*padding: 10px*/
+	}
+#left_column, #right_column {
+	width: 100%;
+}	
+
+}
